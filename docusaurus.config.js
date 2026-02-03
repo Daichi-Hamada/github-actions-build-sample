@@ -20,16 +20,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://shk-education-github-actions-build-test.netlify.app',
-  // url: 'https://your-docusaurus-site.example.com',
+  // GitHub Pages の URL: https://<ユーザー名>.github.io/<リポジトリ名>/
+  url: 'https://Daichi-Hamada.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/github-actions-build-sample/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: '湘南ハイテク企画', // Usually your GitHub org/user name.
-  projectName: '求職者支援訓練', // Usually your repo name.
+  organizationName: 'Daichi-Hamada', // GitHub ユーザー名または組織名
+  projectName: 'github-actions-build-sample', // リポジトリ名
+  trailingSlash: false, // GitHub Pages との互換性のため
 
   onBrokenLinks: 'throw',
 
@@ -93,7 +93,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} 湘南ハイテク企画`,
+        copyright: `Copyright © ${new Date().getFullYear()} DAICHI HAMADA`,
       },
       prism: {
         theme: prismThemes.github,
